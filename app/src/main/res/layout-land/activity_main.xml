@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/txMathOperation"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ellipsize="start"
+            android:hint="0"
+            android:gravity="end"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/btLeft"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_left" />
+
+        <Button
+            android:id="@+id/btRight"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_right" />
+
+        <Button
+            android:id="@+id/btBack"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_back" />
+
+        <Button
+            android:id="@+id/btDivision"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_divide" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/btSeven"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_seven" />
+
+        <Button
+            android:id="@+id/btEight"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_eight" />
+
+        <Button
+            android:id="@+id/btNine"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_nine" />
+
+        <Button
+            android:id="@+id/btX"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_mult" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/btFour"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_four" />
+
+        <Button
+            android:id="@+id/btFive"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_five" />
+
+        <Button
+            android:id="@+id/btSix"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_six" />
+
+        <Button
+            android:id="@+id/btMinus"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_minus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/btOne"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_one" />
+
+        <Button
+            android:id="@+id/btTwo"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_two" />
+
+        <Button
+            android:id="@+id/btThree"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_three" />
+
+        <Button
+            android:id="@+id/btPlus"
+            style="@style/ButtonStyleOrangeLand"
+            android:text="@string/label_plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/btZero"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_zero" />
+
+        <Button
+            android:id="@+id/btComma"
+            style="@style/ButtonStyleGreyLand"
+            android:text="@string/label_point" />
+
+        <Button
+            android:id="@+id/btCE"
+            android:text="@string/label_ce"
+            style="@style/ButtonStyleOrangeLand"/>
+        <Button
+            android:id="@+id/btEqually"
+            android:text="@string/label_eqqually"
+            style="@style/ButtonStyleOrangeLand"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

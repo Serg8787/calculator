@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calc</string>
+    <string name="mistake">Ошибка вычисления</string>
+    <string name="hint_zero">0</string>
+    <string name="label_left">(</string>
+    <string name="label_right">)</string>
+    <string name="label_back">BACK</string>
+    <string name="label_divide">/</string>
+    <string name="label_seven">7</string>
+    <string name="label_eight">8</string>
+    <string name="label_nine">9</string>
+    <string name="label_mult">X</string>
+    <string name="label_four">4</string>
+    <string name="label_five">5</string>
+    <string name="label_six">6</string>
+    <string name="label_minus">-</string>
+    <string name="label_one">1</string>
+    <string name="label_two">2</string>
+    <string name="label_three">3</string>
+    <string name="label_plus">+</string>
+    <string name="label_zero">0</string>
+    <string name="label_point">.</string>
+    <string name="label_ce">CE</string>
+    <string name="label_eqqually">=</string>
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="number_lfrt">(</string>
+    <string name="number_right">)</string>
+    <string name="plus">+</string>
+    <string name="divide">/</string>
+    <string name="mult">*</string>
+    <string name="point">.</string>
+    <string name="minus">-</string>
+</resources>
